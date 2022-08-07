@@ -1,0 +1,24 @@
+opt_in_rules:
+  - empty_count
+  - attributes
+  - empty_string
+  - force_unwrapping
+  - explicit_init
+excluded: 
+  - PaperClipTests
+  - PaperClipClassifiedAds/Tests
+  - PaperClipCategories/Tests
+  - PaperClipCore/Tests
+  - PaperClipDesignKit/Tests
+  - PaperClipNetworkCore/Tests
+identifier_name:
+  - min_length: 1
+type_name:
+    min_length: 1
+    max_length:
+        warning: 50
+        error: 60
+line_length:
+    warning: 150
+    ignores_function_declarations: true
+    ignores_comments: true
