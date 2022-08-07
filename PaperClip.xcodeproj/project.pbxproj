@@ -43,18 +43,10 @@
 		50E8A6CB289ACE0D006850B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E8A6CA289ACE0D006850B1 /* AppDelegate.swift */; };
 		50E8A6D4289ACE0F006850B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E8A6D3289ACE0F006850B1 /* Assets.xcassets */; };
 		50E8A6D7289ACE0F006850B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E8A6D5289ACE0F006850B1 /* LaunchScreen.storyboard */; };
-		50E8A6EC289ACE0F006850B1 /* PaperClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E8A6EB289ACE0F006850B1 /* PaperClipUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		50E8A6DE289ACE0F006850B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50E8A6BF289ACE0D006850B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50E8A6C6289ACE0D006850B1;
-			remoteInfo = PaperClip;
-		};
-		50E8A6E8289ACE0F006850B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50E8A6BF289ACE0D006850B1 /* Project object */;
 			proxyType = 1;
@@ -99,8 +91,6 @@
 		50E8A6D6289ACE0F006850B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E8A6D8289ACE0F006850B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E8A6DD289ACE0F006850B1 /* PaperClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50E8A6E7289ACE0F006850B1 /* PaperClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50E8A6EB289ACE0F006850B1 /* PaperClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperClipUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,13 +106,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		50E8A6DA289ACE0F006850B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50E8A6E4289ACE0F006850B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,7 +257,6 @@
 			children = (
 				50E8A6C9289ACE0D006850B1 /* PaperClip */,
 				50E8A6E0289ACE0F006850B1 /* PaperClipTests */,
-				50E8A6EA289ACE0F006850B1 /* PaperClipUITests */,
 				50E8A6C8289ACE0D006850B1 /* Products */,
 				50DC0A71289BF76400277C03 /* Frameworks */,
 			);
@@ -285,7 +267,6 @@
 			children = (
 				50E8A6C7289ACE0D006850B1 /* PaperClip.app */,
 				50E8A6DD289ACE0F006850B1 /* PaperClipTests.xctest */,
-				50E8A6E7289ACE0F006850B1 /* PaperClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,14 +290,6 @@
 				50AC0043289E608B00B1B355 /* Views */,
 			);
 			path = PaperClipTests;
-			sourceTree = "<group>";
-		};
-		50E8A6EA289ACE0F006850B1 /* PaperClipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				50E8A6EB289ACE0F006850B1 /* PaperClipUITests.swift */,
-			);
-			path = PaperClipUITests;
 			sourceTree = "<group>";
 		};
 		50E8A6FA289ACE16006850B1 /* Views */ = {
@@ -372,24 +345,6 @@
 			productReference = 50E8A6DD289ACE0F006850B1 /* PaperClipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		50E8A6E6289ACE0F006850B1 /* PaperClipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50E8A6F7289ACE0F006850B1 /* Build configuration list for PBXNativeTarget "PaperClipUITests" */;
-			buildPhases = (
-				50E8A6E3289ACE0F006850B1 /* Sources */,
-				50E8A6E4289ACE0F006850B1 /* Frameworks */,
-				50E8A6E5289ACE0F006850B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50E8A6E9289ACE0F006850B1 /* PBXTargetDependency */,
-			);
-			name = PaperClipUITests;
-			productName = PaperClipUITests;
-			productReference = 50E8A6E7289ACE0F006850B1 /* PaperClipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,10 +359,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					50E8A6DC289ACE0F006850B1 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 50E8A6C6289ACE0D006850B1;
-					};
-					50E8A6E6289ACE0F006850B1 = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 50E8A6C6289ACE0D006850B1;
 					};
@@ -428,7 +379,6 @@
 			targets = (
 				50E8A6C6289ACE0D006850B1 /* PaperClip */,
 				50E8A6DC289ACE0F006850B1 /* PaperClipTests */,
-				50E8A6E6289ACE0F006850B1 /* PaperClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -444,13 +394,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		50E8A6DB289ACE0F006850B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50E8A6E5289ACE0F006850B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -525,14 +468,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50E8A6E3289ACE0F006850B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50E8A6EC289ACE0F006850B1 /* PaperClipUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -540,11 +475,6 @@
 			isa = PBXTargetDependency;
 			target = 50E8A6C6289ACE0D006850B1 /* PaperClip */;
 			targetProxy = 50E8A6DE289ACE0F006850B1 /* PBXContainerItemProxy */;
-		};
-		50E8A6E9289ACE0F006850B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50E8A6C6289ACE0D006850B1 /* PaperClip */;
-			targetProxy = 50E8A6E8289ACE0F006850B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -770,42 +700,6 @@
 			};
 			name = Release;
 		};
-		50E8A6F8289ACE0F006850B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z86VL37PV3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmorais.PaperClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PaperClip;
-			};
-			name = Debug;
-		};
-		50E8A6F9289ACE0F006850B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z86VL37PV3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmorais.PaperClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PaperClip;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -832,15 +726,6 @@
 			buildConfigurations = (
 				50E8A6F5289ACE0F006850B1 /* Debug */,
 				50E8A6F6289ACE0F006850B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		50E8A6F7289ACE0F006850B1 /* Build configuration list for PBXNativeTarget "PaperClipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50E8A6F8289ACE0F006850B1 /* Debug */,
-				50E8A6F9289ACE0F006850B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
